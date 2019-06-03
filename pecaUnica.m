@@ -3,7 +3,7 @@ close all
 
 pkg load image
 
-im = imread('./p1.jpg');
+im = imread('./banco/p1.jpg');
 imb = im2bw(im);
 imf = medfilt2(imb);
 img2=~imf;
